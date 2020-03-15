@@ -1,0 +1,5 @@
+Po przepisaniu kodu w c# realizującego obliczanie pola koła metodą Monte Carlo do javy, modyfikujemy program w następujący sposób:
+
+1. Tworzymy klasę Kolo, która zawiera dwie metody. Pierwsza metoda oblicza pole ze wzoru Pi * r^2, druga metoda oblicza pole metodą MonteCarlo, w której parametrem wejściowym jest liczba losowanych punktów.
+
+2. W metodzie main() tworzymy kilka obiektów (kół) o różnych promieniach i wypisujemy w konsoli obliczone wartości pól dwiema metodami.
