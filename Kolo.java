@@ -41,6 +41,8 @@ public class Kolo {
         kolo.setR(in.nextInt());
 
         System.out.println("Promien kola to : " + kolo.getR() );
+	    
+	in.close(); //trzeba zamknąć scanner
         
     }
 
